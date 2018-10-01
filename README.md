@@ -21,6 +21,23 @@ To support the different chapters and steps of the tutorial; we use branches to 
 
 #### Usage
 
+NOTE: FOR PRODUCTION QUALITY CODE...
+
+Be sure to enforce more code-quality in the tsconfig.json file!
+This was done as an easy way to get people into Typescript so it was kept loosely defined on purpose.
+
+Defaults:
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": false, //Enable these in (tsconfig.json)!
+    "noImplicitThis": false,
+    "noImplicitAny": false, 
+    "importHelpers": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true
+
+
 This project is created using [Create React App](https://github.com/facebookincubator/create-react-app).
 
 To use this repo locally, start by cloning it and installing the NPM packages.

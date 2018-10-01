@@ -13,9 +13,9 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": false,
     "noImplicitThis": false,
-    "noImplicitAny": false,
+    "noImplicitAny": false, 
     "importHelpers": false,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
     "allowSyntheticDefaultImports": true
@@ -27,7 +27,7 @@
     "scripts",
     "acceptance-tests",
     "webpack",
-    "jest",
+    "jest", 
     "src/setupTests.ts"
   ]
 }
